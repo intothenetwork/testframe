@@ -10,3 +10,7 @@ def home():
         button1='next',
         post_url=url_for('second_page', _external=True),
     )
+
+@app.route('/test')
+def about():
+    return 'Test'
